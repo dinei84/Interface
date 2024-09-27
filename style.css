@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Centraliza a interface no container */
+    align-items: center;
+    margin: auto;
+    max-width: 1000px;
+    height: 100vh;
+    background-color: rgb(243, 168, 168);
+    background-image: url(g10.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.interface {
+    display: flex;
+    flex-direction: row; /* Mantém os itens em linha */
+    justify-content: center; /* Centraliza as calculadoras horizontalmente */
+    align-items: center; /* Centraliza as calculadoras verticalmente */
+    gap: 20px;
+}
+
+.calculadora1, .calculadora2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    margin: auto;
+    padding-left: 60px;
+}
+
+/* From Uiverse.io by ShrinilDhorda */ 
+.btn {
+    font-size: 3.0rem;
+    padding: -1rem 2.5rem;
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: rgb(14, 14, 26);
+    color: rgb(234, 234, 234);
+    font-weight: 700;
+    transition: 0.6s;
+    box-shadow: 0px 0px 60px #1f4c65;
+    -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+    margin-top: 120px;
+  }
+  
+  .btn:active {
+    scale: 0.92;
+  }
+  
+  .btn:hover {
+    background: rgb(2,29,78);
+    background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+    color: rgb(4, 4, 38);
+  }
+
+  .btn2 {
+    font-size: 3.0rem;
+    padding: -1rem 2.0rem;
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: rgb(14, 14, 26);
+    color: rgb(234, 234, 234);
+    font-weight: 700;
+    transition: 0.6s;
+    box-shadow: 0px 0px 60px #1f4c65;
+    -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+    margin-top: 120px;
+  }
+  
+  .btn2:active {
+    scale: 0.92;
+  }
+  
+  .btn2:hover {
+    background: rgb(2,29,78);
+    background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
+    color: rgb(4, 4, 38);
+  }
