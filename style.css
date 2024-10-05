@@ -99,3 +99,44 @@ h1{
     background: linear-gradient(270deg, rgba(2, 29, 78, 0.681) 0%, rgba(31, 215, 232, 0.873) 60%);
     color: rgb(4, 4, 38);
   }
+
+  
+  @media screen and (max-width: 768px) {
+    .container {
+      width: 90%;
+      height: 100%;
+      margin: 0 auto;
+    }
+    
+    h1 {
+      font-size: 2rem;
+    }
+    
+    .interface {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .calculadora1, .calculadora2 {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    
+    .btn, .btn2 {
+      font-size: 2rem;
+      padding: 1rem 1.5rem;
+      margin-top: 60px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+    
+    .btn, .btn2 {
+      font-size: 1.5rem;
+      padding: 0.8rem 1.2rem;
+      margin-top: 40px;
+    }
+  }
